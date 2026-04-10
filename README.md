@@ -1,8 +1,8 @@
 # Plasmid V0.1
-## DISCLAIMER
-### ! Unfinished - no working Prototype !
-This is a hobby project under active development. There is currently no working prototype, so if you're looking for a finished Interrupter to build at home I'm sorry to dissapoint.
-### Please take care
+## 🛑 DISCLAIMER 🛑
+### !! Unfinished - no working Prototype !!
+This is a hobby project under active development. There is currently no working prototype, so if you're looking for a finished Interrupter to build at home I'm sorry to disapoint.
+### !!! Please take care !!!
 As this project is not developed professionally it also doesn't meet any safety or security standards. There will be mistakes/oversights in the code, that's inevitable. Building and operating a Tesla Coil is dangerous and potetially deadly if done incorrectly or without care. Using the code/resources from this repository you agree that the authors are in no way liable for bodily harm, or any other kind of damages resulting from mistakes in the design, code, and other resources provided in this repository. This includes any and all kinds of usecases, intended or unintended by the author.
 Always make sure you take proper precautions when operating potentially life threatening devices (like Tesla Coils). High Voltage is no Joke. Always double check your Work and make sure you know what you're doing. Last but not least: Don't forget to have fun ;)
 ## Description
