@@ -11,8 +11,7 @@ void setup() {
     if(i != 21 && ((i > 4 && i < 8) || (i > 10 && i < 14) || (i > 18 && i < 38) || (i > 42 && i < 47))){
       continue;
     }
-    pinMode(i, INPUT);
-    digitalWrite(i, LOW);
+    pinMode(i, INPUT_PULLDOWN);
   }
 
   Serial.begin(9600);
