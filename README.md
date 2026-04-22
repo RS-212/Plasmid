@@ -1,4 +1,4 @@
-# Plasmid V0.1
+# Plasmid
 ## 🛑 DISCLAIMER 🛑
 ### !! Unfinished - no working Prototype !!
 This is a hobby project under active development. There is currently no working prototype, so if you're looking for a finished Interrupter to build at home I'm sorry to disapoint.
@@ -17,7 +17,7 @@ When finished, features will include:
 ### Hardware
 #### Microcontroller
 This Project uses Rev.2 of the YellowByte YB-ESP32-S3-AMP Development Board. For further reference see [here](https://github.com/yellobyte/YB-ESP32-S3-AMP).
-This board was chosen, because of the builtin SD card reader and easy debugging using a speaker connected to the audio terminal.
+This board was chosen, because of the builtin SD card reader. Maybe in the future the I2S amp on the board will be used add some sound effects to the interface.
 #### User Interface
 The current goal is to make the Interrupter a standalone device, usable without the need for a Smartphone or Laptop. Status will be displayed on a matrix LCD screen and the device will be controlled using a set of buttons/rotary encoders.
 #### Peripherals
@@ -26,4 +26,4 @@ The Interrupter is connected to the Tesla Coil using a fiber optic cable. This e
 When using the live MIDI function of the interrupter, connect your MIDI device to Plasmid using a standard 5 pin MIDI Cable. The Interrupter acts as a MIDI Instrument/Synthesizer and is able to interpret most (not all) MIDI messages.
 If you don't know what that is, don't worry about it. Just plug in your keyboard, choose MIDI live mode and play some tunes on your coil ;)
 ### Code
-The Code is written in C++ using Arduino IDE v2.
+The Code is written in C++ using PlatformIO (specifically the pioarduino fork). This enables using the Arduino framework.
